@@ -1,7 +1,8 @@
 from typing import List
 
 
-# ID посылки: 161586820
+# по этому id неактуальный код :161586820
+# ты скажи где этот код взять я сверху взял айди с яндекс контекста
 
 
 def calculate_min_platforms(weights: List[int], limit: int) -> int:

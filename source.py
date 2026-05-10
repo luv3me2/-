@@ -1,8 +1,9 @@
 from typing import List
 
 
-# по этому id неактуальный код :161586820
-# ты скажи где этот код взять я сверху взял айди с яндекс контекста
+#PACKAGE_ID = "161586820"
+
+
 
 
 def calculate_min_platforms(weights: List[int], limit: int) -> int:

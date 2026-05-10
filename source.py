@@ -1,6 +1,8 @@
 from typing import List
 
+
 # ID посылки: 161586820
+
 
 def calculate_min_platforms(weights: List[int], limit: int) -> int:
     """
@@ -26,6 +28,7 @@ def calculate_min_platforms(weights: List[int], limit: int) -> int:
         # Если самый лёгкий и самый тяжёлый помещаются вместе
         if sorted_weights[left] + sorted_weights[right] <= limit:
             left += 1
+
         # Тяжёлый всегда уезжает (один или с лёгким)
         right -= 1
         platforms += 1

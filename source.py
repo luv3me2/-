@@ -1,10 +1,6 @@
-from typing import List
-
-
 #PACKAGE_ID = "161586820"
-#это актуальный айди!!!!!
 
-
+from typing import List
 
 def calculate_min_platforms(weights: List[int], limit: int) -> int:
     """

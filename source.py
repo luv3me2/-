@@ -1,5 +1,5 @@
-#161951059
-#просто уже подвердите самому не надоело одно и ттоже писать?
+
+#162056248
 from typing import List
 
 def calculate_min_platforms(weights: List[int], limit: int) -> int:
